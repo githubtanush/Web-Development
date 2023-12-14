@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        div{
+            border: 1px solid black;
+            background-color: blueviolet;
+        }
+        img{
+            margin: 10px; 
+        }
+        /* .image2{
+            /* position: relative;
+            top: 100px;
+            left: 200px;  */
+            /* position: absolute;
+            top: 100px; */
+            /* <!--In absolute property gap does not maintained and 1 photo overlap to 2nd photo--> */
+        /* } */ 
+        .container{
+            position: relative;
+            background-color: blueviolet;
+        }
+        .image4{
+            position: fixed;
+        }
+        .image3{
+            position: sticky;
+            top: 100px;
+            left: 150px;
+        }
+        .box{
+            background-color: aquamarine;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <img src="s.jpg"  height="300px" width="300px" alt="poster1" class="image1">
+    <img src="h.jpg"  height="300px" width="300px" alt="poster2" class="image2">
+    <img src="t.jpg"  height="300px" width="300px" alt="poster3" class="image3">
+    <img src="m.jpg"  height="300px" width="300px" alt="poster4" class="image4"></div>
+    <div class="box"> </div>
+</body>
+</html>
